@@ -1,0 +1,25 @@
+{
+  "name": "ntours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdivani/Ntours.git"
+  },
+  "author": "giorgi mdivani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdivani/Ntours/issues"
+  },
+  "homepage": "https://github.com/mdivani/Ntours#readme",
+  "devDependencies": {
+    "node-sass": "^4.8.3"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
