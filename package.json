@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "serve": "live-server"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,8 @@
   "devDependencies": {
     "node-sass": "^4.8.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "g": "^2.0.1",
+    "live-server": "^1.2.0"
+  }
 }
