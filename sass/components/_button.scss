@@ -58,9 +58,10 @@
         color: $color-primary;
         display: inline-block;
         font-size: $default-font-size;
+        font-weight: 700;
         text-decoration: none;
         transition: all .2s;
-        border-bottom: 1px solid $color-primary;
+        border-bottom: 2px solid $color-primary;
         padding: 3px;
     }
     &:hover {
