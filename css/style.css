@@ -169,7 +169,7 @@ body {
     width: 15rem;
     height: auto; }
   .footer__navigation {
-    border-top: #777;
+    border-top: 1px solid #777;
     padding: 2rem;
     display: inline-block; }
   .footer__list {
@@ -192,7 +192,7 @@ body {
   .footer__copyright {
     float: right;
     color: #f7f7f7;
-    border-top: #777;
+    border-top: 1px solid #777;
     padding: 2rem;
     width: 80%; }
 
