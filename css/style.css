@@ -913,6 +913,11 @@ body {
     font-size: 3rem;
     text-decoration: none;
     line-height: 1; }
+    @media (max-width: 37.5em) {
+      .popup__close:link, .popup__close:visited {
+        top: 1rem;
+        right: 1rem;
+        color: #000; } }
   .popup__close:hover {
     color: #55c57a; }
   .popup__content {
@@ -928,20 +933,61 @@ body {
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.25);
     transition: all .5s .2s; }
+    @media (max-width: 75em) {
+      .popup__content {
+        display: block;
+        overflow-y: auto;
+        width: 90%;
+        height: 90%; } }
+    @media (max-width: 56.25em) {
+      .popup__content {
+        width: 100%;
+        height: 100%; } }
   .popup:target .popup__content {
     opacity: 1;
     transform: translate(-50%, -50%) scale(1); }
   .popup__img {
     display: block;
     width: 100%; }
+    @media (max-width: 75em) {
+      .popup__img {
+        display: inline-block;
+        vertical-align: middle;
+        width: 40%; }
+        .popup__img:not(:last-child) {
+          margin-right: 3rem; } }
+    @media (max-width: 75em) and (max-width: 37.5em) {
+      .popup__img:not(:last-child) {
+        margin-right: auto; } }
+    @media (max-width: 37.5em) {
+      .popup__img {
+        display: block;
+        margin: 1rem auto;
+        width: 98%; } }
   .popup__left {
     width: 33.333%;
     display: table-cell; }
+    @media (max-width: 75em) {
+      .popup__left {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 3rem;
+        max-height: 40%;
+        overflow: hidden; } }
+    @media (max-width: 37.5em) {
+      .popup__left {
+        max-height: 100%;
+        margin-top: 0; } }
   .popup__right {
     width: 66.667%;
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 5rem; }
+    @media (max-width: 75em) {
+      .popup__right {
+        display: block;
+        width: 100%; } }
   .popup__text {
     font-size: 1.4rem;
     margin-bottom: 4rem;
@@ -949,3 +995,6 @@ body {
     column-gap: 4rem;
     column-rule: 1px solid #f7f7f7;
     hyphens: auto; }
+    @media (max-width: 56.25em) {
+      .popup__text {
+        column-count: 1; } }
